@@ -17,7 +17,7 @@ export class App extends Component {
        <Routes>
        
           <Route  path="/"  element={<News key="general" country='in' category='politics'/>}/>
-          <Route  path="business/*"  element={<News key="bsiness" country='in' category='business'/>}/>
+          <Route  path="business/*"  element={<News key="business" country='in' category='business'/>}/>
           <Route  path="entertainment/*"  element={<News key="entertainment" country='in' category='entertainment'/>}/>
           <Route  path="general/*"  element={<News key="general" country='in' category='general'/>}/>
           <Route  path="health/*"  element={<News key="health" country='in' category='health'/>}/>
